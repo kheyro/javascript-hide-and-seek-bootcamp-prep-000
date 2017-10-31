@@ -20,7 +20,7 @@ function deepestChild() {
     el = nested;
     nested = el.querySelector('div');
     if(!nested) {
-      return el.textContent;
+      return el;
     }
   }
 }
