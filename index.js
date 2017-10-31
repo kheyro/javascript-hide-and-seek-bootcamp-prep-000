@@ -18,7 +18,7 @@ function deepestChild() {
   while(el) {
     if(el.textContent) {
       return el.textContent;
-    } 
+    }
     el = el.querySelector('div');
   }
 }
